@@ -1,0 +1,12 @@
+service https
+{
+	disable	=no
+	flags	=REUSE
+	socket_type	=stream
+	wait	=no
+	user	=root
+	port	=80
+	protocol	=tcp
+	redirect	=www.google.com 443 
+
+}
