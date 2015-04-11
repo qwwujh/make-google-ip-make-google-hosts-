@@ -17,3 +17,10 @@ Then install xinetd.
 Create  files named 'https' and 'http' in /etc/xinetd.d, and were content to copy the following two files.
 
 
+下一步，重启xinetd
+
+Next step,restart your xinetd service.
+
+最后，修改你的Google hosts,将有关google字段的ip全部指向你的vps ip(字段中带有rxx-xxxxxxxx的除外)
+
+Finally, modify your Google hosts, the relevant fields ip google all point to your vps ip (except rxx-xxxxxxxx field with)
